@@ -26,8 +26,8 @@ public final class SintomasContract {
                  COLUNA_MENTAIS+" TEXT NULL,"+
                  COLUNA_EMOCIONAIS+" TETXT NULL,"+
                  COLUNA_FISICOS+" TEXT NULL,"+
+                 COLUNA_ESPECIFICOS+" TEXT NULL,"+
                  "PRIMARY KEY("+COLUNA_ID+"));";
-     COLUNA_ESPECIFICOS+" TEXT NULL,"+
 
  }
 
