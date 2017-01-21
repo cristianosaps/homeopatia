@@ -8,11 +8,8 @@ public class Medicamento {
     private long medicamentoId;
 
         private String sintomas_idsintomas;
-        private String animais_sintomas_idsintomas;
         private String animais_idanimais;
-        private String crianca_sintomas_idsintomas;
         private String crianca_idcrianca;
-        private String vegetais_sintomas_idsintomas;
         private String vegetais_idvegetais;
         private String nome_med;
         private String historico_med;
@@ -33,14 +30,6 @@ public class Medicamento {
         this.sintomas_idsintomas = sintomas_idsintomas;
     }
 
-    public String getAnimais_sintomas_idsintomas() {
-        return animais_sintomas_idsintomas;
-    }
-
-    public void setAnimais_sintomas_idsintomas(String animais_sintomas_idsintomas) {
-        this.animais_sintomas_idsintomas = animais_sintomas_idsintomas;
-    }
-
     public String getAnimais_idanimais() {
         return animais_idanimais;
     }
@@ -49,28 +38,12 @@ public class Medicamento {
         this.animais_idanimais = animais_idanimais;
     }
 
-    public String getCrianca_sintomas_idsintomas() {
-        return crianca_sintomas_idsintomas;
-    }
-
-    public void setCrianca_sintomas_idsintomas(String crianca_sintomas_idsintomas) {
-        this.crianca_sintomas_idsintomas = crianca_sintomas_idsintomas;
-    }
-
     public String getCrianca_idcrianca() {
         return crianca_idcrianca;
     }
 
     public void setCrianca_idcrianca(String crianca_idcrianca) {
         this.crianca_idcrianca = crianca_idcrianca;
-    }
-
-    public String getVegetais_sintomas_idsintomas() {
-        return vegetais_sintomas_idsintomas;
-    }
-
-    public void setVegetais_sintomas_idsintomas(String vegetais_sintomas_idsintomas) {
-        this.vegetais_sintomas_idsintomas = vegetais_sintomas_idsintomas;
     }
 
     public String getVegetais_idvegetais() {

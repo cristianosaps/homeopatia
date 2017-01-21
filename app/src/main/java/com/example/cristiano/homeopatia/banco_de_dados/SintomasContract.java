@@ -20,14 +20,14 @@ public final class SintomasContract {
 
      //DEFININDO CODIGO SQL DA TABELA SINTOMAS
      public static final String CRIADOR_TABELA_SINTOMAS =
-             "CREATE TABLE"+NOME_TABELA+" ("
-                 +COLUNA_ID+" INTEGER UNSIGNED NOT NULL AUTOINCREMENT,"+
+             "CREATE TABLE "+NOME_TABELA+" ("
+                 +COLUNA_ID+" INTEGER NOT NULL ,"+
                  COLUNA_ENERGETICOS+" TEXT NULL,"+
                  COLUNA_MENTAIS+" TEXT NULL,"+
-                 COLUNA_EMOCIONAIS+" TETXT NULL,"+
+                 COLUNA_EMOCIONAIS+" TEXT NULL,"+
                  COLUNA_FISICOS+" TEXT NULL,"+
                  COLUNA_ESPECIFICOS+" TEXT NULL,"+
-                 "PRIMARY KEY("+COLUNA_ID+"));";
+                 " PRIMARY KEY("+COLUNA_ID+"));";
 
  }
 

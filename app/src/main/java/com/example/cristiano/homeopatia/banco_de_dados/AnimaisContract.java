@@ -12,13 +12,13 @@ public final class AnimaisContract {
     public static abstract class AnimaisEntry implements BaseColumns{
         public static final String NOME_TABELA = "Animais";
         public static final String COLUNA_ID = "idAnimais";
-        public static final String SINTOMAS_IDSINTOMAS = "Sintomas_Animais";
+        public static final String DESCRICAO = "descricao";
 
         //DEFININDO CODIGO SQL DA TABELA ANIMAIS
         public static final String CRIADOR_TABELA_ANIMAIS =
-                "CREATE TABLE"+NOME_TABELA+" ("
-                        +COLUNA_ID+" INTEGER UNSIGNED NOT NULL AUTOINCREMENT,"+
-                        SINTOMAS_IDSINTOMAS+" TEXT NULL,"+
+                "CREATE TABLE "+NOME_TABELA+" ("
+                        +COLUNA_ID+" INTEGER NOT NULL,"+
+                        DESCRICAO+" INTEGER,"+
                         "PRIMARY KEY("+COLUNA_ID+"));";
 
  }

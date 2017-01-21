@@ -7,7 +7,7 @@ package com.example.cristiano.homeopatia.Entidades;
 public class Vegetais {
     private long vegetaisId;
 
-    private String sintoma_idsintoma;
+    private String descricao;
 
     public long getVegetaisId() {
         return vegetaisId;
@@ -17,11 +17,11 @@ public class Vegetais {
         this.vegetaisId = vegetaisId;
     }
 
-    public String getSintoma_idsintoma() {
-        return sintoma_idsintoma;
+    public String getDescricao() {
+        return descricao;
     }
 
-    public void setSintoma_idsintoma(String sintoma_idsintoma) {
-        this.sintoma_idsintoma = sintoma_idsintoma;
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 }

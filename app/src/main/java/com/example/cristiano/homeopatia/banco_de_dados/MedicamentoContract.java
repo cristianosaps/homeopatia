@@ -27,13 +27,13 @@ public final class MedicamentoContract {
      public static final String CRIADOR_TABELA_MEDICAMENTO =
              "CREATE TABLE"+NOME_TABELA+" ("
                      +COLUNA_ID+" INTEGER UNSIGNED NOT NULL AUTOINCREMENT,"+
-                     SINTOMAS_IDSINTOMAS+" TEXT NULL,"+
-                     ANIMAIS_SINTOMAS_IDSINTOMAS+" TEXT NULL,"+
-                     ANIMAIS_IDANIMAIS+" TEXT NULL,"+
-                     CRIANCA_SINTOMAS_IDSINTOMAS+" TEXT NULL,"+
-                     CRIANCA_IDCRIANCA+" TEXT NULL,"+
-                     VEGETAIS_SINTOMAS_IDSINTOMAS+" TEXT NULL,"+
-                     VEGETAIS_IDVEGETAIS+" TEXT NULL,"+
+                     SINTOMAS_IDSINTOMAS+" INTEGER,"+
+                     ANIMAIS_SINTOMAS_IDSINTOMAS+" INTEGER,"+
+                     ANIMAIS_IDANIMAIS+" INTEGER,"+
+                     CRIANCA_SINTOMAS_IDSINTOMAS+" INTEGER,"+
+                     CRIANCA_IDCRIANCA+" INTEGER,"+
+                     VEGETAIS_SINTOMAS_IDSINTOMAS+" INTEGER,"+
+                     VEGETAIS_IDVEGETAIS+" INTEGER,"+
                      NOME_MED+" TETXT NULL,"+
                      HISTORICO_MED+" TEXT NULL,"+
                      "PRIMARY KEY("+COLUNA_ID+"));";

@@ -1,0 +1,41 @@
+{
+  "medicamentos": [{
+    "animais": {
+      "descricao": "Descrição do Sintoma Animal"
+    },
+    "crianca": {
+      "descricao": "Descrição do Sintoma da Criança"
+    },
+    "vegetal": {
+      "descricao": "Descrição do Sintoma do Vegetal"
+    },
+    "nome_med": "Remedio 1",
+    "historico_med": "Historico do remedio 1",
+    "sintomas": {
+      "energetico": "Sintoma Energetico",
+      "mentais": "Sintomas Mentais",
+      "emocionais": "Sintomas Emocionais",
+      "fisicios": "Sintoma Fisico",
+      "especifico": "Sintomas Especificos"
+    }
+  }, {
+    "animais": {
+      "descricao": "Descrição do Sintoma Animal"
+    },
+    "crianca": {
+      "descricao": "Descrição do Sintoma da Criança"
+    },
+    "vegetal": {
+      "descricao": "Descrição do Sintoma do Vegetal"
+    },
+    "nome_med": "Remedio 1",
+    "historico_med": "Historico do remedio 1",
+    "sintomas": {
+      "energetico": "Sintoma Energetico",
+      "mentais": "Sintomas Mentais",
+      "emocionais": "Sintomas Emocionais",
+      "fisicios": "Sintoma Fisico",
+      "especifico": "Sintomas Especificos"
+    }
+  }]
+}

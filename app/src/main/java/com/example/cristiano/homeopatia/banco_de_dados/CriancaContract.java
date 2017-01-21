@@ -12,13 +12,13 @@ public final class CriancaContract {
  public static abstract class CriancaEntry implements BaseColumns{
      public static final String NOME_TABELA = "Crianca";
      public static final String COLUNA_ID = "idCrianca";
-     public static final String SINTOMAS_IDSINTOMAS = "Sintomas_Crianca";
+     public static final String DESCRICAO = "DESCRICAO";
 
      //DEFININDO CODIGO SQL DA TABELA CRIANCA
      public static final String CRIADOR_TABELA_CRIANCA =
              "CREATE TABLE"+NOME_TABELA+" ("
                      +COLUNA_ID+" INTEGER UNSIGNED NOT NULL AUTOINCREMENT,"+
-                     SINTOMAS_IDSINTOMAS+" TEXT NULL,"+
+                     DESCRICAO+" INTEGER,"+
                      "PRIMARY KEY("+COLUNA_ID+"));";
 
 
