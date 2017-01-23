@@ -21,8 +21,6 @@ public class MainActivity extends AppCompatActivity {
         hello.setText("Ola !");
 
         BancoDeDadosHelper db = new BancoDeDadosHelper(this);
-        db.insertSintomas();
-        db.insertSintomas();
 
         List<Sintomas> list= db.busca_sintomas();
 
