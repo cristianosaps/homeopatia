@@ -17,9 +17,9 @@ public final class CriancaContract {
      //DEFININDO CODIGO SQL DA TABELA CRIANCA
      public static final String CRIADOR_TABELA_CRIANCA =
              "CREATE TABLE "+NOME_TABELA+" ("
-                     +COLUNA_ID+" INTEGER UNSIGNED NOT NULL AUTOINCREMENT,"+
-                     DESCRICAO+" INTEGER,"+
-                     "PRIMARY KEY("+COLUNA_ID+"));";
+                     +COLUNA_ID+" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL , "+
+                     DESCRICAO+" INTEGER"+
+                     ");";
 
 
  }

@@ -17,9 +17,9 @@ public final class VegetaisContract {
      //DEFININDO CODIGO SQL DA TABELA VEGETAIS
      public static final String CRIADOR_TABELA_VEGETAIS =
              "CREATE TABLE "+NOME_TABELA+" ("
-                 +COLUNA_ID+" INTEGER UNSIGNED NOT NULL AUTOINCREMENT,"+
-                 DESCRICAO +" INTEGER,"+
-                 "PRIMARY KEY("+COLUNA_ID+"));";
+                 +COLUNA_ID+" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "+
+                 DESCRICAO +" INTEGER"+
+                 ");";
 
 
  }

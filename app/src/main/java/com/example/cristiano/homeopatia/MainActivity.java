@@ -1,29 +1,38 @@
 package com.example.cristiano.homeopatia;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.TextView;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 
-import com.example.cristiano.homeopatia.Entidades.Sintomas;
+import com.example.cristiano.homeopatia.Entidades.Composto;
+import com.example.cristiano.homeopatia.adapter.MedAdapter;
 import com.example.cristiano.homeopatia.banco_de_dados.BancoDeDadosHelper;
 
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
+    private RecyclerView recView;
+    private RecyclerView.Adapter mAdapter;
+    private RecyclerView.LayoutManager layoutManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView hello = (TextView) findViewById(R.id.hello);
-        hello.setText("Ola !");
-
         BancoDeDadosHelper db = new BancoDeDadosHelper(this);
+        List<Composto> list = db.busca_tudo();
 
-        List<Sintomas> list= db.busca_sintomas();
+        recView = (RecyclerView) findViewById(R.id.recicleMed);
 
-        Log.e("Homeopatia", "Busca: "+list.get(0).getEmocionais());
+        recView.setHasFixedSize(true);
+
+        layoutManager = new LinearLayoutManager(this);
+        recView.setLayoutManager(layoutManager);
+
+        mAdapter = new MedAdapter(list, this);
+
+        recView.setAdapter(mAdapter);
     }
 }

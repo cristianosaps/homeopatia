@@ -23,14 +23,14 @@ public final class MedicamentoContract {
      //DEFININDO CODIGO SQL DA TABELA MEDICAMENTO
      public static final String CRIADOR_TABELA_MEDICAMENTO =
              "CREATE TABLE "+NOME_TABELA+" ("
-                     +COLUNA_ID+" INTEGER UNSIGNED NOT NULL AUTOINCREMENT,"+
+                     +COLUNA_ID+" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL ,"+
                      SINTOMAS_IDSINTOMAS+" INTEGER,"+
                      ANIMAIS_IDANIMAIS+" INTEGER,"+
                      CRIANCA_IDCRIANCA+" INTEGER,"+
                      VEGETAIS_IDVEGETAIS+" INTEGER,"+
                      NOME_MED+" TETXT NULL,"+
-                     HISTORICO_MED+" TEXT NULL,"+
-                     "PRIMARY KEY("+COLUNA_ID+"));";
+                     HISTORICO_MED+" TEXT NULL"+
+                     ");";
 
  }
 

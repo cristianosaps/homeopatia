@@ -6,6 +6,7 @@ import android.content.res.Resources;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 import com.example.cristiano.homeopatia.Entidades.Animais;
 import com.example.cristiano.homeopatia.Entidades.Composto;
@@ -65,6 +66,8 @@ public class BancoDeDadosHelper extends SQLiteOpenHelper {
 
             json = new String(data);
 
+            Log.i("JSON MED", json);
+
             try {
                 JSONObject root = new JSONObject(json);
                 JSONArray meds = root.getJSONArray("medicamentos");
@@ -82,15 +85,15 @@ public class BancoDeDadosHelper extends SQLiteOpenHelper {
                     medToSalve.setCrianca_idcrianca(Long.toString(salvaCrianca(crianca, db)));
 
                     Vegetais vegetais = new Vegetais();
-                    vegetais.setDescricao(med.getJSONObject("vegetais").getString("descricao"));
+                    vegetais.setDescricao(med.getJSONObject("vegetal").getString("descricao"));
                     medToSalve.setVegetais_idvegetais(Long.toString(salvaVegetais(vegetais, db)));
 
                     Sintomas sint = new Sintomas();
                     sint.setEmocionais(med.getJSONObject("sintomas").getString("emocionais"));
-                    sint.setEnergeticos(med.getJSONObject("sintomas").getString("energeticos"));
+                    sint.setEnergeticos(med.getJSONObject("sintomas").getString("energetico"));
                     sint.setEspecificos(med.getJSONObject("sintomas").getString("especificos"));
                     sint.setMetais(med.getJSONObject("sintomas").getString("mentais"));
-                    sint.setFisicos(med.getJSONObject("sintomas").getString("fisicos"));
+                    sint.setFisicos(med.getJSONObject("sintomas").getString("fisicios"));
                     medToSalve.setSintomas_idsintomas(Long.toString(salvaSintomas(sint, db)));
 
                     medToSalve.setHistorico_med(med.getString("historico_med"));
@@ -105,6 +108,8 @@ public class BancoDeDadosHelper extends SQLiteOpenHelper {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        Log.i("Banco Home", "Banco de dados iniciado e com dados inseridos com sucesso");
     }
 
     @Override
@@ -293,5 +298,28 @@ public class BancoDeDadosHelper extends SQLiteOpenHelper {
         return composto;
     }
 
+    public List<Composto> busca_tudo(){
+        SQLiteDatabase db = getWritableDatabase();
+        List<Composto> listCcomposto = new ArrayList<>();
+        try{
+            Cursor res = db.query(MedicamentoContract.MedicamentoEntry.NOME_TABELA, null, null, null,null,null,null);
+            if(res.moveToFirst()) {
+                do {
+                    //select * from Sintomas
+                    Medicamento result = busca_medicamentos(res.getLong(res.getColumnIndex(MedicamentoContract.MedicamentoEntry.COLUNA_ID)));
+                    Sintomas sintomas = busca_sintoma(Long.decode(result.getSintomas_idsintomas()));
+                    Vegetais vegetais = busca_vegetais(Long.decode(result.getVegetais_idvegetais()));
+                    Crianca crianca = busca_crianca(Long.decode(result.getCrianca_idcrianca()));
+                    Animais animais = busca_animais(Long.decode(result.getAnimais_idanimais()));
+
+                    listCcomposto.add(new Composto(animais, crianca, result, sintomas, vegetais));
+                } while (res.moveToNext());
+            }
+        }finally {
+            db.close();
+        }
+
+        return listCcomposto;
+    }
 }
 

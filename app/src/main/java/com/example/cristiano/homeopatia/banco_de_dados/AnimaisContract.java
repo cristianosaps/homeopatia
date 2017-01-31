@@ -17,9 +17,9 @@ public final class AnimaisContract {
         //DEFININDO CODIGO SQL DA TABELA ANIMAIS
         public static final String CRIADOR_TABELA_ANIMAIS =
                 "CREATE TABLE "+NOME_TABELA+" ("
-                        +COLUNA_ID+" INTEGER NOT NULL,"+
-                        DESCRICAO+" INTEGER,"+
-                        "PRIMARY KEY("+COLUNA_ID+"));";
+                        +COLUNA_ID+" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,"+
+                        DESCRICAO+" INTEGER"+
+                        ");";
 
  }
 

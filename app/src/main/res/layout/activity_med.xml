@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_med"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.cristiano.homeopatia.MedActivity">
+
+    <TextView android:id="@+id/medTitle" android:text="TESTE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textAlignment="center" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content" android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/medHistoria" android:text="FISICO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView android:text="Sintomas Fisicos: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+            <TextView android:id="@+id/medFisico" android:text="FISICO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView android:text="Sintomas Especificos: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+            <TextView android:id="@+id/medEspecifico" android:text="FISICO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView android:text="Sintomas Mentais: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+            <TextView android:id="@+id/medMentais" android:text="FISICO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView android:text="Sintomas Energetico: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+            <TextView android:id="@+id/medEnergetico" android:text="FISICO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView android:text="Sintomas em Vegetais: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+            <TextView android:id="@+id/medVegetais" android:text="FISICO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView android:text="Sintomas em Crianças: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+            <TextView android:id="@+id/medCrianca" android:text="FISICO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView android:text="Sintomas em Animais: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+            <TextView android:id="@+id/medAnimal" android:text="FISICO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

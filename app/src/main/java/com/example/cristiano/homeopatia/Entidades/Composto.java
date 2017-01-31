@@ -64,5 +64,17 @@ public class Composto {
         this.vegetais = vegetais;
     }
 
-
+    @Override
+    public String toString() {
+        return "Composto{" +
+                "animais=" + animais.getDescricao() +
+                ", crianca=" + crianca.getDescricao() +
+                ", medicamento=" + medicamento.getNome_med() +
+                ", sintomasFisico=" + sintomas.getFisicos() +
+                ", sintomasEspecifico=" + sintomas.getEspecificos() +
+                ", sintomasMentais=" + sintomas.getMetais() +
+                ", sintomasEnergeticos=" + sintomas.getEnergeticos() +
+                ", vegetais=" + vegetais.getDescricao() +
+                '}';
+    }
 }
