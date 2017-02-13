@@ -93,7 +93,7 @@ public class BancoDeDadosHelper extends SQLiteOpenHelper {
                     sint.setEnergeticos(med.getJSONObject("sintomas").getString("energetico"));
                     sint.setEspecificos(med.getJSONObject("sintomas").getString("especificos"));
                     sint.setMetais(med.getJSONObject("sintomas").getString("mentais"));
-                    sint.setFisicos(med.getJSONObject("sintomas").getString("fisicios"));
+                    sint.setFisicos(med.getJSONObject("sintomas").getString("fisicos"));
                     medToSalve.setSintomas_idsintomas(Long.toString(salvaSintomas(sint, db)));
 
                     medToSalve.setHistorico_med(med.getString("historico_med"));

@@ -1,5 +1,47 @@
 {
-  "medicamentos": [{
+  "medicamentos": [
+    {
+    "animais": {
+      "descricao": "Descrição do Sintoma Animal"
+    },
+    "crianca": {
+      "descricao": "Descrição do Sintoma da Criança"
+    },
+    "vegetal": {
+      "descricao": null
+    },
+    "nome_med": "Atropa Belladona",
+    "historico_med": "Historico do remedio 1",
+    "sintomas": {
+      "energetico": "Sintoma Energetico",
+      "mentais": "Sintomas Mentais",
+      "emocionais": "Sintomas Emocionais",
+      "fisicos": "Sintoma Fisico",
+      "especificos": "Sintomas Especificos"
+    }
+  },
+    {
+      "animais": {
+        "descricao": "Descrição do Sintoma Animal"
+      },
+      "crianca": {
+        "descricao": "Descrição do Sintoma da Criança"
+      },
+      "vegetal": {
+        "descricao": null
+      },
+      "nome_med": "Atropa Belladona",
+      "historico_med": "Historico do remedio 1",
+      "sintomas": {
+        "energetico": "Sintoma Energetico",
+        "mentais": "Sintomas Mentais",
+        "emocionais": "Sintomas Emocionais",
+        "fisicos": "Sintoma Fisico",
+        "especificos": "Sintomas Especificos"
+      }
+    },
+
+    {
     "animais": {
       "descricao": "Descrição do Sintoma Animal"
     },
@@ -9,33 +51,55 @@
     "vegetal": {
       "descricao": "Descrição do Sintoma do Vegetal"
     },
-    "nome_med": "Remedio 1",
+    "nome_med": "Allium Cepa",
     "historico_med": "Historico do remedio 1",
     "sintomas": {
       "energetico": "Sintoma Energetico",
       "mentais": "Sintomas Mentais",
       "emocionais": "Sintomas Emocionais",
-      "fisicios": "Sintoma Fisico",
+      "fisicos": "Sintoma Fisico",
       "especificos": "Sintomas Especificos"
     }
-  }, {
-    "animais": {
-      "descricao": "Descrição do Sintoma Animal"
+  },
+    {
+      "animais": {
+        "descricao": "Descrição do Sintoma Animal"
+      },
+      "crianca": {
+        "descricao": null
+      },
+      "vegetal": {
+        "descricao": "Descrição do Sintoma do Vegetal"
+      },
+      "nome_med": "Baryta Carbonica",
+      "historico_med": "Historico do remedio 1",
+      "sintomas": {
+        "energetico": "Sintoma Energetico",
+        "mentais": "Sintomas Mentais",
+        "emocionais": "Sintomas Emocionais",
+        "fisicos": "Sintoma Fisico",
+        "especificos": "Sintomas Especificos"
+      }
     },
-    "crianca": {
-      "descricao": "Descrição do Sintoma da Criança"
-    },
-    "vegetal": {
-      "descricao": "Descrição do Sintoma do Vegetal"
-    },
-    "nome_med": "Remedio 1",
-    "historico_med": "Historico do remedio 1",
-    "sintomas": {
-      "energetico": "Sintoma Energetico",
-      "mentais": "Sintomas Mentais",
-      "emocionais": "Sintomas Emocionais",
-      "fisicios": "Sintoma Fisico",
-      "especificos": "Sintomas Especificos"
+    {
+      "animais": {
+        "descricao": "Descrição do Sintoma Animal"
+      },
+      "crianca": {
+        "descricao": "Descrição do Sintoma da Criança"
+      },
+      "vegetal": {
+        "descricao": null
+      },
+      "nome_med": "Atropa Belladona",
+      "historico_med": "Historico do remedio 1",
+      "sintomas": {
+        "energetico": "Sintoma Energetico",
+        "mentais": "Sintomas Mentais",
+        "emocionais": "Sintomas Emocionais",
+        "fisicos": "Sintoma Fisico",
+        "especificos": "Sintomas Especificos"
+      }
     }
-  }]
+  ]
 }

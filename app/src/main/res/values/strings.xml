@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">Homeopatia</string>
+    <string name="app_name">Catalogo de Homeopatia</string>
     <string name="variavel_teste">Cristiano</string>
+    <string name="title_activity_home">HomeActivity</string>
 </resources>

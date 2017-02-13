@@ -11,83 +11,76 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.cristiano.homeopatia.MedActivity">
 
-    <TextView android:id="@+id/medTitle" android:text="TESTE"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
-        android:textAlignment="center" />
+        android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/medTitle" android:text="TESTE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:layout_weight="2"/>
+
+        <ImageButton android:id="@+id/btnStar"
+            android:src="@drawable/ic_star_border_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <LinearLayout
-            android:layout_width="wrap_content" android:orientation="vertical"
+            android:layout_width="match_parent" android:orientation="vertical"
             android:layout_height="wrap_content">
+
             <TextView android:id="@+id/medHistoria" android:text="FISICO"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <TextView android:text="Sintomas Fisicos: "
-                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
-            <TextView android:id="@+id/medFisico" android:text="FISICO"
+            <Button android:id="@+id/btnEspecificos"
+                android:text="Sintomas em Especificos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-            <TextView android:text="Sintomas Especificos: "
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-            <TextView android:id="@+id/medEspecifico" android:text="FISICO"
+            <Button android:id="@+id/btnFisicos"
+                android:text="Sintomas em Fisicos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-            <TextView android:text="Sintomas Mentais: "
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-            <TextView android:id="@+id/medMentais" android:text="FISICO"
+            <Button android:id="@+id/btnEmocionais"
+                android:text="Sintomas em Emocionais"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-            <TextView android:text="Sintomas Energetico: "
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-            <TextView android:id="@+id/medEnergetico" android:text="FISICO"
+            <Button android:id="@+id/btnMentais"
+                android:text="Sintomas em Mentais"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-            <TextView android:text="Sintomas em Vegetais: "
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-            <TextView android:id="@+id/medVegetais" android:text="FISICO"
+            <Button android:id="@+id/btnEnergetico"
+                android:text="Sintomas em Energeticos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-            <TextView android:text="Sintomas em Crianças: "
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-            <TextView android:id="@+id/medCrianca" android:text="FISICO"
+            <Button android:id="@+id/btnCriancas"
+                android:text="Sintomas em Criancas"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-            <TextView android:text="Sintomas em Animais: "
+            <Button android:id="@+id/btnVegetais"
+                android:text="Sintomas em Vegetais"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+                android:layout_height="wrap_content" />
 
-            <TextView android:id="@+id/medAnimal" android:text="FISICO"
+            <Button android:id="@+id/btnAnimais"
+                android:text="Sintomas em Animais"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
         </LinearLayout>

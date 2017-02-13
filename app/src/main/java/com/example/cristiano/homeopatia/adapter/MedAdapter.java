@@ -3,14 +3,12 @@ package com.example.cristiano.homeopatia.adapter;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
+import android.widget.TextView;
 
 import com.example.cristiano.homeopatia.Entidades.Composto;
-import com.example.cristiano.homeopatia.MainActivity;
 import com.example.cristiano.homeopatia.MedActivity;
 import com.example.cristiano.homeopatia.R;
 
@@ -55,11 +53,11 @@ public class MedAdapter extends RecyclerView.Adapter<MedAdapter.ViewHolder>{
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{
-        public Button titleMed;
+        public TextView titleMed;
 
         public ViewHolder(View itemView) {
             super(itemView);
-            titleMed  = (Button) itemView.findViewById(R.id.titleMed);
+            titleMed  = (TextView) itemView.findViewById(R.id.titleMed);
         }
     }
 }
