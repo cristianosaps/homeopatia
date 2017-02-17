@@ -60,7 +60,7 @@ public class ListActivity extends AppCompatActivity {
         recView.setAdapter(mAdapter);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("Catálogo de Homeeopatias");
+        toolbar.setTitle("Catálogo de Homeopatias");
 
         setSupportActionBar(toolbar);
     }

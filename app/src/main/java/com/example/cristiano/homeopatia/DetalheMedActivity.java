@@ -34,8 +34,8 @@ public class DetalheMedActivity extends AppCompatActivity {
         TextView tvnomeSintoma = (TextView) findViewById(R.id.sintomaDetalheMed);
         TextView tvSintoma = (TextView) findViewById(R.id.detalheSintomaDetalheMed);
 
-        tvNome.setText(nome.equals("null")?"Nome não encontrado":nome);
-        tvnomeSintoma.setText(nomeSintoma.equals("null")?" ":nomeSintoma);
-        tvSintoma.setText(sintoma.equals("null")?"Sintoma não encontrado":sintoma);
+        tvNome.setText(nome);
+        tvnomeSintoma.setText(nomeSintoma);
+        tvSintoma.setText(sintoma);
     }
 }
