@@ -2,63 +2,63 @@
   "medicamentos": [
     {
     "animais": {
-      "descricao": "Descrição do Sintoma Animal"
+      "descricao": "- Alergias. \n- Inflamações com exsudações. \n- Pele vermelha. \n- Sem sede (com ou sem febre). Agrava com calor. \n- Edemas (úbere geralmente). Urticária. \n- Eliminação de cistos. \n- Animais ciumentos (30CH). \n- Cisto no ovário direito. \n- Meningite. \n- Edema do leitão. \n- Distúrbios por insolação. 4D, 6D, 30D."
     },
     "crianca": {
-      "descricao": "Descrição do Sintoma da Criança"
+      "descricao": "- Difíceis de serem agradadas. \n- Facilmente se adaptam a novos grupos. \n- Vivem felizes com estranhos. Mas são inseguras. \n- Gostam do convívio social e de organização. \n- Gostam de dança. \n- Gritam repentinamente como por ferroadas (inclusive dormindo). \n- São calorentas e o calor agrava seus sintomas mentais. Abanam-se. \n- Afetuosas, ciumentas, laboriosas, colaboradoras, muito alérgicas (com erupções, urticárias, edemas na face e na pálpebra, edema de faringe). \n- Rangem dentes. \n- Sensação de corpo estranho na garganta. \n- Prudentes (sem avareza), vivem com simplicidade (pouco orgulhosas), apressadas, se divertem facilmente (com poucos estímulos), gostam de dialogar (e discutir)."
     },
     "vegetal": {
-      "descricao": null
+      "descricao": "- Desequilíbrios no período de acumulação de amido ou de açúcar, ou no período de crescimento. \n- Plantas intolerantes ao calor. \n- Plantas com fertilidade (pólen ou estigma) diminuída, com queda de flores ou perdas dos frutinhos. \n- Obs: Não pode ser usada quando, ou na fase que a planta depende das abelhas na polinização."
     },
-    "nome_med": "Atropa Belladona",
-    "historico_med": "Historico do remedio 1",
+    "nome_med": "Apis Mellifica",
+    "historico_med": "A preparação básica é feita com abelhas operárias inteiras, mas somente após serem provocadas (dentro do frasco) e estarem irritadas. \n\nCausa muitas patogenesias nas partes externas do corpo e nos envoltórios dos órgãos internos. \n\nProvoca extrema sensibilidade ao toque, dores generalizadas e repentinas. \n\nCausa muita prostração pois o tipo é laborioso.",
     "sintomas": {
-      "energetico": "Sintoma Energetico",
-      "mentais": "Sintomas Mentais",
-      "emocionais": "Sintomas Emocionais",
-      "fisicos": "Sintoma Fisico",
-      "especificos": "Sintomas Especificos"
+      "energetico": "- Grande agitação motora, não consegue caminhar tranquilamente pela rua, pois tem uma pressão psórica. \n- Convulsões desencadeadas por um banho quente ou um quarto abafado e quente. \n- Sensação de corpo estranho preso na gargante. \n- Ilusão de que a lingua é de madeira. \n- Necessita estar muito ocupado, fazendo algo. \n- Intolerância a roupas e adornos em volta do pescoço(semelhante a Lachesis). \n- Sensação de adormecimento na cabeça. \n- Sensação de ruido de água dentro da cabeça. \n- Sensação de paralisia no corpo. \n- Ilusão de que está gravida. \n- Sensação de areia nos olhos. \n- Sensação de morte.",
+      "mentais": "- Organizado. \n- Prudente. \n- Solidário, gosta de ajudar e cooperar com o seu próximo. \n- Medo de perder a consciência. \n- Vive em grupo. \n- Dificuldade de se posicionar longe do grupo. \n- Insegurança quando está só. \n- Agitado. \n- Laborioso. \n- Dificuldade de ficar parado.",
+      "emocionais": "- Afetuosa. \n- Ciumenta. \n- Exclusivista. \n- Impiedosa. \n- Dominadora. \n- Meiga, sensual. \n- Medo da morte. \n- Sentimentos vuneráveis. \n- Adora música e dança. \n- Medo da solidão. \n- Busca constante de contato com as pessoas. \n- O calor, deixando-a triste, chorando sem causa, tendo depressão emotiva.",
+      "fisicos": "- Frequência furunculose. \n- Sonolência após comer. \n- Alergia a picada de insetos e urticária. \n- Cisto no ovário direito(no ovário esquerdo é Thuya). \n- Tendência a abortos nos primeiros meses (um grande medicamento à mulheres com tendências abortivas.). \n- Pele vermelha e seca. \n- Dores ardente, que lembram uma ferroada, deixando a região com edema e inflamações avermelhadas. \n- Esterilidade. \n- Asma, respira com dificuldade, necessita de janelas abertas. \n- Pálpebras inchadas, acompanhadas de conjuntivite e estrabismo. \n- Reumatismo, gota artrite reumática. \n- Problemas urinários. \n- Ranger dentes. \n- Melhoram sintomas com água fria no rosto.",
+      "especificos": "- Superproteção, ciúme, organização e arrumação.\n- Distúrbios na água e em plantas. \n\n- Principal medicamento para Reumatismo, gota artrite reumática. \n- Inflamações e edemas nos animais. \n- Inflamação com inchaço, edemas repentinos na pele ou nas mucosas (principalmente dos rins, e da faringe), edema do ovário direito principalmente exsudação em inflamação das serosas (articulações, peritônio e pleura)."
     }
   },
     {
       "animais": {
-        "descricao": "Descrição do Sintoma Animal"
+        "descricao": "- Fadiga. \n- Distúrbios por esforço. \n- Debilidade. \n- Animais não aceitam toque. Agravam com movimentação. \n- Lesões com sangue claro. \n- Traumatismo, hematomas. \n- Compressões (cérebro, medula). \n- Após acidentes, parto, lesões. \n- Acelera eliminação da placenta. 3D, 4D, 12D, 30C, 200C."
       },
       "crianca": {
-        "descricao": "Descrição do Sintoma da Criança"
+        "descricao": "- A criança manifesta medo, angústia, tristeza, mau humor, irritabilidade. \n- As manifestações são exageradas (exemplos: a queda mínima causa desmaio, escorregou teve hematoma e luxação, pancada fraca resulta em fratura). \n- São crianças que reclamam muito de dores (inclusive dor óssea) caracterizando-as como “hipocondríaca dos traumatismos”. \n- Paradoxalmente podem ser crianças ousadas, arrojadas, destemidas e imprudentes mas que não gostam de toques físicos, espirram com frequência. \n- Com cabeça quente e corpo frio. \n- Sonhos vívidos."
       },
       "vegetal": {
-        "descricao": null
+        "descricao": "- Plantas que receberam forte impacto por: podas, colheitas, insetos, operações de enxertia, transplante mecanizado. \n- Crescimentos anormais e localizados nas raízes de árvores. \n- Feridas durante as podas e colheitas. \n- Plantas típicas de clima frio, porém, estão sendo cultivadas na época quente impactadas pelo calor. \n- Choques causados pelo transplante das mudas, danos por granizo (após cicatrização) e pelos enxertos. \n- Choques provocados pelo uso de cultivadores, grades, rotativas, roçadeiras. \n- Estacas recém cortadas visando enraizamento (aplicar antes e após o traumatismo do corte). \n- Observações: \n\t 1) Não usar nas plantas enquanto houver ferimentos com tecidos internos expostos. \n\t 2) Praticar prevenção quando houver manuseio impactante. \n- Dificuldade de adaptação de variedades a novas condições de ambiente."
       },
-      "nome_med": "Atropa Belladona",
-      "historico_med": "Historico do remedio 1",
+      "nome_med": "Arnica Montana",
+      "historico_med": "A preparação básica é feita da planta Arnica montana (família Compositae) que cresce nas montanhas da Europa. Essa planta não existe no Brasil. \n\nAs homeopatias feitas das arnicas brasileiras não foram estudadas ainda. Portanto, no uso das arnicas brasileiras não há certeza que os efeitos serão os mesmos. É preciso que se faça experiências em pessoas saudáveis. \n\nA preparação básica de Arnica montana tomada diretamente por pessoas mais frágeis ou sensíveis pode causar irritação gastrintestinal com vômitos e diarreia, excitação nervosa, dispneia, delírio, suores frios, hemorragias, convulsões e dor de cabeça forte.",
       "sintomas": {
         "energetico": "Sintoma Energetico",
         "mentais": "Sintomas Mentais",
         "emocionais": "Sintomas Emocionais",
         "fisicos": "Sintoma Fisico",
-        "especificos": "Sintomas Especificos"
+        "especificos": "- Traumatismo, choques emocionais. \n- Manejo agronômico das plantas. \n- Acidentes com animais. \n\n- O indivíduo mesmo sem sofrer qualquer acidente, se comporta como um paciente politraumatizado."
       }
     },
 
     {
     "animais": {
-      "descricao": "Descrição do Sintoma Animal"
+      "descricao": "- Animais com ossos grandes. \n- Animais pesados porém de carne pouco rígida. \n- Animais com coloração clara e com tendência a ter edemas e distúrbios de pele. \n- Tem metabolismo lento, lentidão nos movimentos, crescimento atrasado. \n- Animais calmos de cansaço rápido. \n- Filhotes que recusam o leite. \n- Os suores são localizados e não ocorrem no corpo todo. \n- Vacas com úberes pendentes. \n- Mucosa com distúrbios crônicos (inclusive infecções no sistema digestório). \n- Verrugas pequenas em grande número no úbere. \n- Havendo analogia constitucional: 30CH, 60CH, 100CH, 200CH. \n- Distúrbios físicos: 6D, 12D, 3CH, 4CH, 5CH, 6CH."
     },
     "crianca": {
-      "descricao": "Descrição do Sintoma da Criança"
+      "descricao": "- Guarda tudo por medo de ficar pobre e medo de infortúnio. \n- Faz economia de tudo embora com apenas 3 anos de idade. \n- Não gosta de dividir seus pertences e alimentos. \n- São muito impressionáveis, muito medrosas e preocupadas. \n- Guardam gordura no corpinho e fezes na barriguinha (prisão de ventre). \n- Transpiram muito, choram muito, param muito. \n- São lentas, egoístas, friorentas, gordinhas com traços arredondados, membros curtos e ossos avantajados. \n- Demoram a andar sozinhas e os dentes a nascer. \n\n- Insuficiência hepática – Falta de apetite,digestão lenta, vômitos de leite, diarreia, erupções. \n- Circulação lenta – Sensibilidade ao frio, resfriados frequentes. \n- Atraso na dentição, no fechamento das fontanelas, no andar. Raquitismo, suor na nuca. \n- Insuficiência da tireoide e da pituitária. Acumulação de gordura. Hipotermia (frialdade). \n- Sono agitado, espasmos. \n\n- EM ADOLESCENTES: \n- Lentidão – mental e física, atraso nos estudos. \n- Insuficiência hepática – Perturbações digestórias, transtornos supurativos na pele, impetigo. \n- Circulação lenta – Linfatismo, obesidade, adenopatias, amidalites, adenoidites, otites, bronquites. \n- Hipocalcemia – Cáries dentárias, desvios da espinha, descalcificação. \n- Hipoparatireoidia – Espasmos."
     },
     "vegetal": {
-      "descricao": "Descrição do Sintoma do Vegetal"
+      "descricao": "- Plantas com sensibilidade a frio na fase de pré-transplante. \n- Lentidão na emissão de raízes novas após o transplante. \n- Plantas que não respondem ao incremento da fertilidade no solo. \n- Plantas com expansão na forma circular ou arredondada, com densidade destacada. \n- Plantas com: crescimento lento, brotações tardias, fragilidade em clima frio ou chuvoso, menor teor de clorofila, menor firmeza, maior demanda de água. \n- Folhas e hastes facilmente feridas ou danificadas por insetos ou fungos principalmente na lua cheia. \n- Hastes curtas e grossas, raízes que não têm o padrão normal de crescimento da espécie. \n- Folhas frequentemente intumescidas, floração precoce por menor período e menor duração. \n- Frutos com menor taxa de pegamento, sementes menores e com maior percentagem de esterilidade. \n- Tendência dos frutos serem mais ácidos e das folhas terem necrose nas margens."
     },
-    "nome_med": "Allium Cepa",
-    "historico_med": "Historico do remedio 1",
+    "nome_med": "Calcarea Carbônica",
+    "historico_med": "A preparação básica é obtida pela trituração da camada média interna da concha da ostra (do mar) que contém carbonato de cálcio e fosfato de cálcio. \n\nO Carbonato de cálcio é apenas um dos vários sais de cálcio usados na homeopatia. O carbonato de cálcio tem inúmeras aplicações, mas atua sobre os ossos e os dentes em especial. É um medicamento usado em dor nas costas, dor nas juntas, ossos fraturados que demoram a se curar e dentição dolorida em crianças. \n\nConstituição: \nPessoa baixinha/gordinha. Gosta de falar sobre sua saúde e experiências. Pessoa redondinha equilibrada que não adoece. Gostam de comer muito ovo. Pessoas que criam carapaças para se esconder",
     "sintomas": {
       "energetico": "Sintoma Energetico",
       "mentais": "Sintomas Mentais",
       "emocionais": "Sintomas Emocionais",
       "fisicos": "Sintoma Fisico",
-      "especificos": "Sintomas Especificos"
+      "especificos": "- Medo. \n- Transpiração abundante. \n- Sensibilidade ao frio, lentidão. \n- Apreensão. \n- Distúrbios em animais lentos. \n- Distúrbios do solo e das plantas. \n- Físico-química da água. \n\n- Medo de perder o controle e de que os outros observem seu interior. \n- Apreensão. \n- Trabalha duro, sobrecarrega-se de trabalho. \n- Eficiente, ultra-responsável, ocupa-se exageradamente.\n- Não pode relaxar. \n- Prático, obstinado. \n- Preocupado com miudezas."
     }
   },
     {
@@ -71,7 +71,7 @@
       "vegetal": {
         "descricao": "Descrição do Sintoma do Vegetal"
       },
-      "nome_med": "Baryta Carbonica",
+      "nome_med": "Kali Carbonicum",
       "historico_med": "Historico do remedio 1",
       "sintomas": {
         "energetico": "Sintoma Energetico",
@@ -91,7 +91,47 @@
       "vegetal": {
         "descricao": null
       },
-      "nome_med": "Atropa Belladona",
+      "nome_med": "Natrum Muriaticum",
+      "historico_med": "Historico do remedio 1",
+      "sintomas": {
+        "energetico": "Sintoma Energetico",
+        "mentais": "Sintomas Mentais",
+        "emocionais": "Sintomas Emocionais",
+        "fisicos": "Sintoma Fisico",
+        "especificos": "Sintomas Especificos"
+      }
+    },
+    {
+      "animais": {
+        "descricao": "Descrição do Sintoma Animal"
+      },
+      "crianca": {
+        "descricao": "Descrição do Sintoma da Criança"
+      },
+      "vegetal": {
+        "descricao": null
+      },
+      "nome_med": "Petroleum",
+      "historico_med": "Historico do remedio 1",
+      "sintomas": {
+        "energetico": "Sintoma Energetico",
+        "mentais": "Sintomas Mentais",
+        "emocionais": "Sintomas Emocionais",
+        "fisicos": "Sintoma Fisico",
+        "especificos": "Sintomas Especificos"
+      }
+    },
+    {
+      "animais": {
+        "descricao": "Descrição do Sintoma Animal"
+      },
+      "crianca": {
+        "descricao": "Descrição do Sintoma da Criança"
+      },
+      "vegetal": {
+        "descricao": null
+      },
+      "nome_med": "Silicea",
       "historico_med": "Historico do remedio 1",
       "sintomas": {
         "energetico": "Sintoma Energetico",

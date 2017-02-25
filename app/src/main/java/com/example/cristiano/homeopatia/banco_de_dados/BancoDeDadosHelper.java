@@ -185,6 +185,7 @@ public class BancoDeDadosHelper extends SQLiteOpenHelper {
                 sintomas.setEmocionais(resultado.getString(resultado.getColumnIndex(SintomasContract.SintomasEntry.COLUNA_EMOCIONAIS)));
                 sintomas.setMetais(resultado.getString(resultado.getColumnIndex(SintomasContract.SintomasEntry.COLUNA_MENTAIS)));
                 sintomas.setFisicos(resultado.getString(resultado.getColumnIndex(SintomasContract.SintomasEntry.COLUNA_FISICOS)));
+                sintomas.setEspecificos(resultado.getString(resultado.getColumnIndex(SintomasContract.SintomasEntry.COLUNA_ESPECIFICOS)));
                 sintomas.setSintomasId(resultado.getInt(resultado.getColumnIndex(SintomasContract.SintomasEntry.COLUNA_ID)));
             }
         }finally {
