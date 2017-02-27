@@ -66,7 +66,7 @@ public class MedActivity extends AppCompatActivity {
                 Intent it = new Intent(MedActivity.this, DetalheMedActivity.class);
                 Bundle extras = new Bundle();
                 extras.putString("nome", med.getMedicamento().getNome_med());
-                extras.putString("nomeSintoma", "Sintoma Físico");
+                extras.putString("nomeSintoma", "Sintomas Físicos");
                 extras.putString("sintoma", med.getSintomas().getFisicos());
 
                 it.putExtra("args", extras);
@@ -82,7 +82,7 @@ public class MedActivity extends AppCompatActivity {
                 Intent it = new Intent(MedActivity.this, DetalheMedActivity.class);
                 Bundle extras = new Bundle();
                 extras.putString("nome", med.getMedicamento().getNome_med());
-                extras.putString("nomeSintoma", "Sintoma em Animais");
+                extras.putString("nomeSintoma", "Sintomas em Animais");
                 extras.putString("sintoma", med.getAnimais().getDescricao());
 
                 it.putExtra("args", extras);
@@ -98,7 +98,7 @@ public class MedActivity extends AppCompatActivity {
                 Intent it = new Intent(MedActivity.this, DetalheMedActivity.class);
                 Bundle extras = new Bundle();
                 extras.putString("nome", med.getMedicamento().getNome_med());
-                extras.putString("nomeSintoma", "Sintoma em Crianças");
+                extras.putString("nomeSintoma", "Sintomas em Crianças");
                 extras.putString("sintoma", med.getCrianca().getDescricao());
 
                 it.putExtra("args", extras);
@@ -114,7 +114,7 @@ public class MedActivity extends AppCompatActivity {
                 Intent it = new Intent(MedActivity.this, DetalheMedActivity.class);
                 Bundle extras = new Bundle();
                 extras.putString("nome", med.getMedicamento().getNome_med());
-                extras.putString("nomeSintoma", "Sintoma Emocionais");
+                extras.putString("nomeSintoma", "Sintomas Emocionais");
                 extras.putString("sintoma", med.getSintomas().getEmocionais());
 
                 it.putExtra("args", extras);
@@ -130,7 +130,7 @@ public class MedActivity extends AppCompatActivity {
                 Intent it = new Intent(MedActivity.this, DetalheMedActivity.class);
                 Bundle extras = new Bundle();
                 extras.putString("nome", med.getMedicamento().getNome_med());
-                extras.putString("nomeSintoma", "Sintoma Energético");
+                extras.putString("nomeSintoma", "Sintomas Energéticos");
                 extras.putString("sintoma", med.getSintomas().getEnergeticos());
 
                 it.putExtra("args", extras);
@@ -145,7 +145,7 @@ public class MedActivity extends AppCompatActivity {
                 Intent it = new Intent(MedActivity.this, DetalheMedActivity.class);
                 Bundle extras = new Bundle();
                 extras.putString("nome", med.getMedicamento().getNome_med());
-                extras.putString("nomeSintoma", "Sintoma Específico");
+                extras.putString("nomeSintoma", "Sintomas Chave");
                 extras.putString("sintoma", med.getSintomas().getEspecificos());
 
                 it.putExtra("args", extras);
@@ -161,7 +161,7 @@ public class MedActivity extends AppCompatActivity {
                 Intent it = new Intent(MedActivity.this, DetalheMedActivity.class);
                 Bundle extras = new Bundle();
                 extras.putString("nome", med.getMedicamento().getNome_med());
-                extras.putString("nomeSintoma", "Sintoma Mentais");
+                extras.putString("nomeSintoma", "Sintomas Mentais");
                 extras.putString("sintoma", med.getSintomas().getMetais());
 
                 it.putExtra("args", extras);
@@ -177,7 +177,7 @@ public class MedActivity extends AppCompatActivity {
                 Intent it = new Intent(MedActivity.this, DetalheMedActivity.class);
                 Bundle extras = new Bundle();
                 extras.putString("nome", med.getMedicamento().getNome_med());
-                extras.putString("nomeSintoma", "Sintoma Vegetais");
+                extras.putString("nomeSintoma", "Sintomas em Vegetais");
                 extras.putString("sintoma", med.getVegetais().getDescricao());
 
                 it.putExtra("args", extras);

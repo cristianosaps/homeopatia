@@ -44,28 +44,28 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
             <Button android:id="@+id/btnEspecificos"
-                android:text="Sintomas em Especificos"
+                android:text="Sintomas Chave"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <Button android:id="@+id/btnFisicos"
-                android:text="Sintomas em Fisicos"
+                android:text="Sintomas Fisicos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <Button android:id="@+id/btnEmocionais"
-                android:text="Sintomas em Emocionais"
+                android:text="Sintomas Emocionais"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
 
             <Button android:id="@+id/btnMentais"
-                android:text="Sintomas em Mentais"
+                android:text="Sintomas Mentais"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <Button android:id="@+id/btnEnergetico"
-                android:text="Sintomas em Energeticos"
+                android:text="Sintomas Energeticos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
